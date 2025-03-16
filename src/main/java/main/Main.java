@@ -53,10 +53,10 @@ public class Main {
         // simulate Monte Carlo Rally race
         RallyRaceResult race2 = new RallyRaceResult("Monte Carlo Rally", "Monaco");
         Map<Driver, Integer> race2Points = new HashMap<>();
-        race2Points.put(d2, 25); // 1st place, 25 points
-        race2Points.put(d4, 18); // 2nd place, 18 points
-        race2Points.put(d1, 15); // 3rd place, 15 points
-        race2Points.put(d3, 12); // 4th place, 12 points
+        race2Points.put(d2, 25);
+        race2Points.put(d4, 18);
+        race2Points.put(d1, 15);
+        race2Points.put(d3, 12);
 
         // record results for Monte Carlo Rally
         race2.recordResult(d1, 3, 15);
