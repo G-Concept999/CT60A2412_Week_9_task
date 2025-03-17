@@ -39,8 +39,8 @@ public class AsphaltCar extends RallyCar {
      */
     @Override
     public double calculatePerformance() {
-        // asphalt cars have a 10% performance boost
-        double performance = getHorsepower() * 1.10;
+        // asphalt cars have a 5% performance boost
+        double performance = getHorsepower() * 1.05;
 
         // format the performance to 1 decimal place
         return Double.parseDouble(String.format("%.1f", performance));

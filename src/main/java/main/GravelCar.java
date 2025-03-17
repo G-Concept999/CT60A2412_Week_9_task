@@ -39,8 +39,8 @@ public class GravelCar extends RallyCar {
      */
     @Override
     public double calculatePerformance() {
-        // gravel cars have a 15% performance reduction
-        double performance = getHorsepower() * 0.85;
+        // gravel cars have a 13% performance reduction
+        double performance = getHorsepower() * 0.87;
 
         // format the performance to 1 decimal place
         return Double.parseDouble(String.format("%.1f", performance));
