@@ -12,6 +12,7 @@ public class ChampionshipManager {
     private List<Driver> drivers; // list of registered drivers
     private List<RallyRaceResult> races; // list of race results
     private static int totalDrivers; // total number of registered drivers
+    private static int totalRaces; // total number of recorded races
 
     /**
      * Private constructor to enforce singleton pattern.
@@ -124,6 +125,7 @@ public class ChampionshipManager {
     public static int getTotalChampionshipPoints() {
         ChampionshipManager manager = ChampionshipManager.getInstance();
         List<Driver> drivers = manager.getDrivers();
+
         int totalChampionshipPoints = 0;
 
         // sum up the points of all drivers
